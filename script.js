@@ -33,3 +33,6 @@ ScrollReveal().reveal("#about", { origin: "left" });
 ScrollReveal().reveal("#skills", { origin: "right" });
 ScrollReveal().reveal("#projects", { origin: "bottom" });
 ScrollReveal().reveal("#contact", { origin: "top" });
+window.addEventListener("load", function () {
+    document.getElementById("loader").style.display = "none";
+});
