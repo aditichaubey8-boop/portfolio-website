@@ -250,3 +250,30 @@ button:hover {
 body {
     background: linear-gradient(135deg, #eef2ff, #dbeafe);
 }
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 10px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #1d4ed8;
+    transform: scale(1.05);
+}
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.profile{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    object-fit:cover;
+}
