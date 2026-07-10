@@ -9,3 +9,14 @@ var typed = new Typed(".typing", {
     backSpeed: 60,
     loop: true
 });
+const themeToggle = document.getElementById("theme-toggle");
+
+themeToggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+
+    if (document.body.classList.contains("dark")) {
+        themeToggle.innerHTML = "☀️";
+    } else {
+        themeToggle.innerHTML = "🌙";
+    }
+});
