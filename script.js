@@ -20,3 +20,16 @@ themeToggle.addEventListener("click", () => {
         themeToggle.innerHTML = "🌙";
     }
 });
+// Scroll Animation
+ScrollReveal({
+    distance: "60px",
+    duration: 1500,
+    delay: 200,
+    reset: false
+});
+
+ScrollReveal().reveal(".hero", { origin: "top" });
+ScrollReveal().reveal("#about", { origin: "left" });
+ScrollReveal().reveal("#skills", { origin: "right" });
+ScrollReveal().reveal("#projects", { origin: "bottom" });
+ScrollReveal().reveal("#contact", { origin: "top" });
