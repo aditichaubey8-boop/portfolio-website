@@ -9,6 +9,7 @@ var typed = new Typed(".typing", {
     backSpeed: 60,
     loop: true
 });
+
 const themeToggle = document.getElementById("theme-toggle");
 
 themeToggle.addEventListener("click", () => {
@@ -20,7 +21,7 @@ themeToggle.addEventListener("click", () => {
         themeToggle.innerHTML = "🌙";
     }
 });
-// Scroll Animation
+
 ScrollReveal({
     distance: "60px",
     duration: 1500,
@@ -33,6 +34,14 @@ ScrollReveal().reveal("#about", { origin: "left" });
 ScrollReveal().reveal("#skills", { origin: "right" });
 ScrollReveal().reveal("#projects", { origin: "bottom" });
 ScrollReveal().reveal("#contact", { origin: "top" });
+
 window.addEventListener("load", function () {
     document.getElementById("loader").style.display = "none";
+});
+
+const menuBtn = document.querySelector(".menu-btn");
+const navMenu = document.querySelector("nav ul");
+
+menuBtn.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
 });
