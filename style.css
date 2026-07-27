@@ -1134,3 +1134,53 @@ nav ul li a:hover{
     z-index: 9999;
     transition: width 0.2s;
 }
+@media (max-width:768px){
+
+header{
+    padding:15px 20px;
+}
+
+nav{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+}
+
+nav ul{
+    display:none !important;
+}
+
+.menu-btn{
+    display:none !important;
+}
+
+.theme-btn{
+    margin-top:10px;
+}
+
+.hero{
+    padding-top:40px !important;
+    min-height:100vh;
+}
+
+.profile{
+    width:160px;
+    height:160px;
+}
+
+.hero h1{
+    font-size:38px;
+}
+
+.hero h2{
+    font-size:26px;
+}
+
+.btn{
+    width:220px;
+    display:block;
+    margin:12px auto;
+}
+
+}
