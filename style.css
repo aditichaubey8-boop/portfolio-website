@@ -1119,7 +1119,7 @@ nav ul li a:hover{
     position:fixed;
     top:0;
     left:0;
-    width:0%;
+    width:0%; 
     height:4px;
     background:#38bdf8;
     z-index:9999;
