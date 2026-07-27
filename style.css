@@ -503,7 +503,7 @@ body {
         display:flex;
     } 
     .menu-btn{
-        display:block;
+        display:none;
     }
     nav h2{
         font-size:24px;
