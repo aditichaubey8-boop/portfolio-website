@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleVerse - Smart Fashion Store</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span>StyleVerse</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#products">Shop</a></li>
+            <li><a href="#trending">Trending</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-regular fa-heart"></i>
+
+            <div class="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="cart-count">0</span>
+            </div>
+        </div>
+        <div id="cart-popup" class="cart-popup">
+    <h3>🛒 Your Cart</h3>
+
+    <p id="cart-items">Products in Cart: 0</p>
+
+    <p>Total: ₹<span id="total-price">0</span></p>
+
+    <button id="checkout-btn">Checkout</button>
+    <button id="close-cart">Close</button>
+</div>
+    </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="hero-text">...</div>
+        <h1>Style Smarter With StyleVerse</h1>
+        <p>
+            Discover trendy outfits, premium fashion and smart shopping
+            experience in one place.
+        </p>
+
+        <button>Explore Collection</button>
+    </div>
+
+    <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700"
+             alt="Fashion">
+    </div>
+</section>
+
+<!-- Search -->
+<section class="search-section">
+    <input type="text" placeholder="Search Fashion...">
+
+    <select>
+        <option>All Categories</option>
+        <option>Women</option>
+        <option>Men</option>
+        <option>Shoes</option>
+        <option>Accessories</option>
+    </select>
+</section>
+
+<!-- Products -->
+<section id="products">
+    <h2>Trending Collection</h2>
+
+    <div class="product-container">
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250" alt="">
+            <h3>Premium Jacket</h3>
+            <p>₹2,499</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250" alt="">
+            <h3>Luxury Shoes</h3>
+            <p>₹3,299</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250" alt="">
+            <h3>Smart Watch</h3>
+            <p>₹4,999</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250" alt="">
+            <h3>Fashion Bag</h3>
+            <p>₹1,999</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<footer id="contact">
+    <h2>aditi chaubey</h2>
+    <p>Email : aditichaubey8@gmail.com</p>
+    <p>© 2026 StyleVerse. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
